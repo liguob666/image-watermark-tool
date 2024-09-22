@@ -57,7 +57,7 @@ const onFileChange = (event) => {
   reader.readAsDataURL(file)
 }
 
-const watermarkText = ref(locale.value === 'cn' ? '(13730856867)成都曹操跑腿' : 'Only for xxx verification use')
+const watermarkText = ref(locale.value === 'cn' ? '(13730856867)成都曹操跑腿' : '没有Onley')
 const watermarkColor = ref('#0000ff')
 const watermarkOpacity = ref(0.3)
 const watermarkSpacing = ref(5)
